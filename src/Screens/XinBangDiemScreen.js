@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Platform} from 'react-native';
 
-export default class ThoiKhoaBieuScreen extends Component{
+export default class XinBangDiemScreen extends Component{
     static navigationOptions = {
         header: null,
       };
@@ -15,7 +15,7 @@ export default class ThoiKhoaBieuScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={styles.text}>Xem thời khóa biểu !</Text>
+                <Text style={styles.text}>Xin Bảng Điểm!</Text>
             </View>
         )
     }
